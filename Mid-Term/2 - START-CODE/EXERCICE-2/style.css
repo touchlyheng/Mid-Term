@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 800px;
+  height: 30vh;
+  border: 1px solid gray;
+  background-color: rgb(232, 239, 245);
+  display: grid;
+}
+.one{
+  
+  background-color: rgb(17, 80, 4);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.two{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+.three{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(245, 242, 242);
+}
+.four{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.five{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(245, 242, 242);
+}
+
+
+
+

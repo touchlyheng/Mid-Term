@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #cacaca;
+  font-size: 24px;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 80px 400px auto 250px;
+  grid-template-rows: 80px;
+}
+nav {
+  background-color: black;
+  grid-row-start: 20px;
+  grid-row: 1/5;
+}
+menu {
+  background-color: #7048e8;
+  grid-column: 2/5;
+}
+button {
+  background-color: #5f3dc4;
+  border-radius: 3px;
+  color: white;
+}
+section {
+  background-color: lightgray;
+  color: black;
+  grid-row: 2/5;
+  gap: 20px;
+}
+.email {
+  border: 1px solid green;
+  width: 50%;
+  height: 50px;
+  padding: 40px;
+  margin-left: 40px;
+}
+main {
+  background-color: rgb(233, 33, 33);
+  color: black;
+  grid-row: 2/5;
+}
+aside {
+  background-color: lightgray;
+  color: black;
+  grid-row: 2/5;
+}
+
+
+
